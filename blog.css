@@ -1,0 +1,118 @@
+
+#divBlog {
+  width: 48%; 
+  float: left; 
+  margin-right: 2%; 
+  box-sizing: border-box; 
+  padding: 10px; 
+  background-color: #f0f0f0; 
+
+}
+
+
+#divApi,.api {
+    max-width: 100em; 
+    overflow-x: auto; 
+    white-space: pre-wrap;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    background-color: #f1f1f1;
+
+  }
+  
+
+
+  .right {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+
+#footer {
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: #e8e4e4; 
+    color: white; 
+    display: flex;
+    padding: 10px; 
+    height: 50px;
+  }
+
+  .showOf {
+    color: rgb(4, 7, 7);
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+#btnShowPosts{
+    width: 100px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #cff510;
+}
+#reset {
+    width: 100px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 900px;
+    margin-right: 25px;
+    background-color: rgb(12, 170, 249);
+    
+}
+#select {
+    width: 60px;
+    height: 30px;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+
+
+.data {
+    
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .right {
+    
+    flex: 1;
+    text-align: left; 
+  }
+  
+  .img {
+    
+    max-width: 100%; 
+    height: 100px; 
+  }
+  
+  .right1, .right2, .right3 {
+    margin: 0; 
+  }
+
+  .right1 {
+    font-weight: bolder;
+    font-size: medium;
+    font-size: 22px;
+  }
+  
+  .right2 {
+    color: #161713;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+  }
+
+  .right3 {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+
+  }
